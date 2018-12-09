@@ -1,0 +1,21 @@
+{
+    "name": "cs-eliseev/otus-sort",
+    "description": "Merge sorting",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eliseev Alexey",
+            "email": "a.k.eliseev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "symfony/console": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sort\\": "src"
+        }
+    }
+}
